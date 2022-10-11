@@ -7,6 +7,7 @@ let elapsedMs = 0;
 let state = 0;
 let timer_id;
 start.addEventListener('click', () => {
+    if(state == 0){
     state = 1
     let startMs = Date.now();
     startMs -= elapsedMs;
@@ -23,6 +24,7 @@ start.addEventListener('click', () => {
         
         stopwatch.textContent = `${formattedM} : ${formattedS} : ${formattedMs}`
     }, 10);
+    };
 });
 
 stop.addEventListener('click', () => {
