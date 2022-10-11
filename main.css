@@ -1,0 +1,22 @@
+#stopwatch {
+    margin: 50px 0 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+
+
+.button{
+    width: 26%;
+    border-color: #fff;
+    box-sizing: border-box;
+    font-size: 13px;
+    height: 39px;
+    margin: 0 6px;
+    
+}
+.button:hover{
+    background-color: #ddd;
+}
